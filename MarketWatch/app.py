@@ -5,7 +5,7 @@ from datetime import date, timedelta
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="MarketWatch",
+    page_title="TradePulse",
     page_icon="📈",
     layout="wide"
 )
@@ -73,4 +73,5 @@ except Exception as e:
     st.error(f"An error occurred: {e}")
 
 st.markdown("---")
+
 st.caption("Data provided by Yahoo Finance | Built with Streamlit")
