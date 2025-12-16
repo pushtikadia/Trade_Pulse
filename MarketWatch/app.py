@@ -22,7 +22,7 @@ start_date = st.sidebar.date_input("Start Date", date.today() - timedelta(days=3
 end_date = st.sidebar.date_input("End Date", date.today())
 
 # --- Main Page Content ---
-st.title(f"📈 {ticker} Market Dashboard")
+st.title(f"📈 {ticker} TradePulse Dashboard")
 
 # 1. Fetch Data
 try:
@@ -75,3 +75,4 @@ except Exception as e:
 st.markdown("---")
 
 st.caption("Data provided by Yahoo Finance | Built with Streamlit")
+
