@@ -1,6 +1,5 @@
-# 📈 MarketWatch
-
-**MarketWatch** is a lightweight, interactive web dashboard built with Python and Streamlit. It allows users to track real-time stock and cryptocurrency performance, visualize historical price trends, and analyze trading volume.
+# 📈 Trade Pulse
+**Trade Pulse** is a lightweight, interactive web dashboard built with Python and Streamlit. It allows users to track real-time stock and cryptocurrency performance, visualize historical price trends, and analyze trading volume.
 
 ## 🚀 Features
 
